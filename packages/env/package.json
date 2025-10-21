@@ -1,0 +1,10 @@
+{
+  "name": "env",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "zod": "^4.1.12"
+  }
+}

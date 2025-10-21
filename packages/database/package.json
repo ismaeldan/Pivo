@@ -1,0 +1,22 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx migrate.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "@types/pg": "^8.15.5",
+    "drizzle-kit": "^0.31.5",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.44.6",
+    "env": "^0.0.2",
+    "postgres": "^3.4.7"
+  }
+}

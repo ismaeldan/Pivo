@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // A LINHA MAIS IMPORTANTE:
+    // Diz ao TypeScript para carregar os tipos globais do Node.js (ex: 'process')
+    "types": ["node"],
+
+    // --- Boas práticas para um pacote TS ---
+    "moduleResolution": "node", // Como o TS encontra módulos
+    "esModuleInterop": true,     // Melhora a compatibilidade de 'import'
+    "skipLibCheck": true,        // Pula a checagem de tipos em libs (performance)
+    "strict": true               // Liga checagens mais rigorosas
+  },
+  "include": [
+    "**/*.ts" // Diz ao TS para incluir todos os arquivos .ts nesta pasta
+  ]
+}
